@@ -4,7 +4,7 @@ editor if you plan to continue editing the block that represents it in
 the Block Editor! File corruption is VERY likely to occur.
 */
 /*
-Copyright (C) 1991-2009 Altera Corporation
+Copyright (C) 1991-2010 Altera Corporation
 Your use of Altera Corporation's design tools, logic functions 
 and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
@@ -21,46 +21,46 @@ applicable agreement for further details.
 (header "symbol" (version "1.1"))
 (symbol
 	(rect 0 0 120 56)
-	(text "lpm_bustri6" (rect 49 1 128 17)(font "Arial" (font_size 10)))
-	(text "inst" (rect 8 40 25 52)(font "Arial" ))
+	(text "lpm_bustri6" (rect 49 1 128 16)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 42 25 52)(font "Arial" ))
 	(port
 		(pt 40 56)
 		(input)
-		(text "enabledt" (rect 0 0 48 14)(font "Arial" (font_size 8)))
-		(text "enabledt" (rect 40 10 53 52)(font "Arial" (font_size 8))(invisible))
+		(text "enabledt" (rect 0 0 48 12)(font "Arial" (font_size 8)))
+		(text "enabledt" (rect 40 11 51 52)(font "Arial" (font_size 8))(invisible))
 		(line (pt 40 56)(pt 40 44)(line_width 1))
 	)
 	(port
 		(pt 0 40)
 		(input)
-		(text "data[5..0]" (rect 0 0 53 14)(font "Arial" (font_size 8)))
-		(text "data[5..0]" (rect -3 -5 10 40)(font "Arial" (font_size 8))(invisible))
+		(text "data[15..0]" (rect 0 0 60 12)(font "Arial" (font_size 8)))
+		(text "data[15..0]" (rect -3 -11 8 40)(font "Arial" (font_size 8))(invisible))
 		(line (pt 0 40)(pt 32 40)(line_width 3))
 	)
 	(port
 		(pt 40 0)
 		(input)
-		(text "enabletr" (rect 0 0 46 14)(font "Arial" (font_size 8)))
-		(text "enabletr" (rect 40 -36 53 3)(font "Arial" (font_size 8))(invisible))
+		(text "enabletr" (rect 0 0 46 12)(font "Arial" (font_size 8)))
+		(text "enabletr" (rect 40 -35 51 3)(font "Arial" (font_size 8))(invisible))
 	)
 	(port
 		(pt 0 24)
 		(output)
-		(text "result[5..0]" (rect 0 0 60 14)(font "Arial" (font_size 8)))
-		(text "result[5..0]" (rect -3 -25 10 24)(font "Arial" (font_size 8))(invisible))
+		(text "result[15..0]" (rect 0 0 67 12)(font "Arial" (font_size 8)))
+		(text "result[15..0]" (rect -3 -31 8 24)(font "Arial" (font_size 8))(invisible))
 		(line (pt 0 24)(pt 32 24)(line_width 3))
 	)
 	(port
 		(pt 120 40)
 		(bidir)
-		(text "tridata[5..0]" (rect 0 0 63 14)(font "Arial" (font_size 8)))
-		(text "tridata[5..0]" (rect 124 -14 137 40)(font "Arial" (font_size 8))(invisible))
+		(text "tridata[15..0]" (rect 0 0 70 12)(font "Arial" (font_size 8)))
+		(text "tridata[15..0]" (rect 124 -19 135 40)(font "Arial" (font_size 8))(invisible))
 		(line (pt 120 40)(pt 48 40)(line_width 3))
 	)
 	(drawing
-		(text "6" (rect 83 41 88 53)(font "Arial" ))
-		(text "6" (rect 15 41 20 53)(font "Arial" ))
-		(text "6" (rect 15 25 20 37)(font "Arial" ))
+		(text "16" (rect 81 41 91 51)(font "Arial" ))
+		(text "16" (rect 13 41 23 51)(font "Arial" ))
+		(text "16" (rect 13 25 23 35)(font "Arial" ))
 		(line (pt 48 16)(pt 32 24)(line_width 1))
 		(line (pt 32 24)(pt 48 32)(line_width 1))
 		(line (pt 48 32)(pt 48 16)(line_width 1))
@@ -69,9 +69,9 @@ applicable agreement for further details.
 		(line (pt 32 48)(pt 32 32)(line_width 1))
 		(line (pt 48 24)(pt 56 24)(line_width 3))
 		(line (pt 56 24)(pt 56 40)(line_width 3))
-		(line (pt 78 44)(pt 86 36)(line_width 1))
-		(line (pt 10 44)(pt 18 36)(line_width 1))
-		(line (pt 10 28)(pt 18 20)(line_width 1))
+		(line (pt 76 44)(pt 84 36)(line_width 1))
+		(line (pt 8 44)(pt 16 36)(line_width 1))
+		(line (pt 8 28)(pt 16 20)(line_width 1))
 		(line (pt 40 0)(pt 40 20)(line_width 1))
 	)
 )
