@@ -4,7 +4,7 @@ editor if you plan to continue editing the block that represents it in
 the Block Editor! File corruption is VERY likely to occur.
 */
 /*
-Copyright (C) 1991-2009 Altera Corporation
+Copyright (C) 1991-2010 Altera Corporation
 Your use of Altera Corporation's design tools, logic functions 
 and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
@@ -20,38 +20,45 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.1"))
 (symbol
-	(rect 16 16 168 112)
-	(text "cu" (rect 5 0 19 14)(font "Arial" (font_size 8)))
-	(text "inst" (rect 8 80 25 92)(font "Arial" ))
+	(rect 16 16 176 144)
+	(text "cu" (rect 5 0 19 12)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 114 25 124)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
-		(text "CLK" (rect 0 0 23 14)(font "Arial" (font_size 8)))
-		(text "CLK" (rect 21 27 44 41)(font "Arial" (font_size 8)))
+		(text "CLK" (rect 0 0 24 12)(font "Arial" (font_size 8)))
+		(text "CLK" (rect 21 27 45 39)(font "Arial" (font_size 8)))
 		(line (pt 0 32)(pt 16 32)(line_width 1))
 	)
 	(port
-		(pt 152 32)
+		(pt 160 48)
 		(output)
-		(text "Address[7..0]" (rect 0 0 77 14)(font "Arial" (font_size 8)))
-		(text "Address[7..0]" (rect 54 27 131 41)(font "Arial" (font_size 8)))
-		(line (pt 152 32)(pt 136 32)(line_width 3))
+		(text "Address[10..0]" (rect 0 0 83 12)(font "Arial" (font_size 8)))
+		(text "Address[10..0]" (rect 56 43 139 55)(font "Arial" (font_size 8)))
+		(line (pt 160 48)(pt 144 48)(line_width 3))
 	)
 	(port
-		(pt 152 64)
+		(pt 160 64)
 		(output)
-		(text "control[5..0]" (rect 0 0 67 14)(font "Arial" (font_size 8)))
-		(text "control[5..0]" (rect 64 59 131 73)(font "Arial" (font_size 8)))
-		(line (pt 152 64)(pt 136 64)(line_width 3))
+		(text "control[5..0]" (rect 0 0 67 12)(font "Arial" (font_size 8)))
+		(text "control[5..0]" (rect 72 59 139 71)(font "Arial" (font_size 8)))
+		(line (pt 160 64)(pt 144 64)(line_width 3))
 	)
 	(port
-		(pt 152 48)
+		(pt 160 80)
+		(output)
+		(text "cm[3..0]" (rect 0 0 46 12)(font "Arial" (font_size 8)))
+		(text "cm[3..0]" (rect 93 75 139 87)(font "Arial" (font_size 8)))
+		(line (pt 160 80)(pt 144 80)(line_width 3))
+	)
+	(port
+		(pt 160 32)
 		(bidir)
-		(text "data[5..0]" (rect 0 0 53 14)(font "Arial" (font_size 8)))
-		(text "data[5..0]" (rect 78 43 131 57)(font "Arial" (font_size 8)))
-		(line (pt 152 48)(pt 136 48)(line_width 3))
+		(text "data[15..0]" (rect 0 0 60 12)(font "Arial" (font_size 8)))
+		(text "data[15..0]" (rect 79 27 139 39)(font "Arial" (font_size 8)))
+		(line (pt 160 32)(pt 144 32)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 136 80)(line_width 1))
+		(rectangle (rect 16 16 144 112)(line_width 1))
 	)
 )

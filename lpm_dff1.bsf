@@ -4,7 +4,7 @@ editor if you plan to continue editing the block that represents it in
 the Block Editor! File corruption is VERY likely to occur.
 */
 /*
-Copyright (C) 1991-2009 Altera Corporation
+Copyright (C) 1991-2010 Altera Corporation
 Your use of Altera Corporation's design tools, logic functions 
 and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
@@ -21,38 +21,38 @@ applicable agreement for further details.
 (header "symbol" (version "1.1"))
 (symbol
 	(rect 0 0 144 96)
-	(text "lpm_dff1" (rect 48 1 104 17)(font "Arial" (font_size 10)))
-	(text "inst" (rect 8 80 25 92)(font "Arial" ))
+	(text "lpm_dff1" (rect 47 1 106 16)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 82 25 92)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
-		(text "data[5..0]" (rect 0 0 53 14)(font "Arial" (font_size 8)))
-		(text "data[5..0]" (rect 20 26 65 39)(font "Arial" (font_size 8)))
+		(text "data[15..0]" (rect 0 0 60 12)(font "Arial" (font_size 8)))
+		(text "data[15..0]" (rect 20 27 71 38)(font "Arial" (font_size 8)))
 		(line (pt 0 32)(pt 16 32)(line_width 3))
 	)
 	(port
 		(pt 0 48)
 		(input)
-		(text "clock" (rect 0 0 29 14)(font "Arial" (font_size 8)))
-		(text "clock" (rect 26 42 49 55)(font "Arial" (font_size 8)))
+		(text "clock" (rect 0 0 30 12)(font "Arial" (font_size 8)))
+		(text "clock" (rect 26 43 49 54)(font "Arial" (font_size 8)))
 		(line (pt 0 48)(pt 16 48)(line_width 1))
 	)
 	(port
 		(pt 0 64)
 		(input)
-		(text "enable" (rect 0 0 37 14)(font "Arial" (font_size 8)))
-		(text "enable" (rect 20 58 53 71)(font "Arial" (font_size 8)))
+		(text "enable" (rect 0 0 37 12)(font "Arial" (font_size 8)))
+		(text "enable" (rect 20 59 52 70)(font "Arial" (font_size 8)))
 		(line (pt 0 64)(pt 16 64)(line_width 1))
 	)
 	(port
 		(pt 144 56)
 		(output)
-		(text "q[5..0]" (rect 0 0 35 14)(font "Arial" (font_size 8)))
-		(text "q[5..0]" (rect 95 50 125 63)(font "Arial" (font_size 8)))
+		(text "q[15..0]" (rect 0 0 42 12)(font "Arial" (font_size 8)))
+		(text "q[15..0]" (rect 89 51 125 62)(font "Arial" (font_size 8)))
 		(line (pt 144 56)(pt 128 56)(line_width 3))
 	)
 	(drawing
-		(text "DFF" (rect 109 17 128 29)(font "Arial" ))
+		(text "DFF" (rect 109 17 128 27)(font "Arial" ))
 		(line (pt 16 16)(pt 128 16)(line_width 1))
 		(line (pt 128 16)(pt 128 80)(line_width 1))
 		(line (pt 128 80)(pt 16 80)(line_width 1))
