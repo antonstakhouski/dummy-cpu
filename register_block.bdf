@@ -1214,7 +1214,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 832 80 896 128)
+	(rect 880 80 944 128)
 	(text "AND2" (rect 1 0 25 9)(font "Arial" (font_size 6)))
 	(text "inst48" (rect 3 37 32 47)(font "Arial" ))
 	(port
@@ -2108,35 +2108,6 @@ applicable agreement for further details.
 	(pt 880 200)
 )
 (connector
-	(pt 752 528)
-	(pt 752 96)
-)
-(connector
-	(pt 752 96)
-	(pt 832 96)
-)
-(connector
-	(pt 1056 120)
-	(pt 1056 104)
-)
-(connector
-	(text "write" (rect 938 96 961 106)(font "Arial" ))
-	(pt 1056 104)
-	(pt 896 104)
-)
-(connector
-	(pt 784 112)
-	(pt 832 112)
-)
-(connector
-	(pt 784 112)
-	(pt 784 200)
-)
-(connector
-	(pt 784 200)
-	(pt 784 512)
-)
-(connector
 	(pt 1144 624)
 	(pt 1144 512)
 )
@@ -2159,6 +2130,35 @@ applicable agreement for further details.
 	(pt 1144 624)
 	(pt 1160 624)
 	(bus)
+)
+(connector
+	(pt 752 528)
+	(pt 752 96)
+)
+(connector
+	(pt 1056 120)
+	(pt 1056 104)
+)
+(connector
+	(text "write" (rect 986 96 1009 106)(font "Arial" ))
+	(pt 1056 104)
+	(pt 944 104)
+)
+(connector
+	(pt 784 112)
+	(pt 784 200)
+)
+(connector
+	(pt 784 200)
+	(pt 784 512)
+)
+(connector
+	(pt 752 96)
+	(pt 880 96)
+)
+(connector
+	(pt 784 112)
+	(pt 880 112)
 )
 (junction (pt 1464 360))
 (junction (pt 1464 472))
