@@ -767,7 +767,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 2216 416 2280 464)
+	(rect 2000 416 2064 464)
 	(text "OR2" (rect 1 0 19 9)(font "Arial" (font_size 6)))
 	(text "inst34" (rect 3 37 32 47)(font "Arial" ))
 	(port
@@ -800,7 +800,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1904 408 1968 456)
+	(rect 1688 408 1752 456)
 	(text "AND2" (rect 1 0 25 9)(font "Arial" (font_size 6)))
 	(text "inst21" (rect 3 37 32 47)(font "Arial" ))
 	(port
@@ -832,7 +832,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1816 288 1976 384)
+	(rect 1600 288 1760 384)
 	(text "lpm_add_sub0" (rect 38 1 137 16)(font "Arial" (font_size 10)))
 	(text "inst40" (rect 8 82 37 92)(font "Arial" ))
 	(port
@@ -862,7 +862,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 2072 312 2184 400)
+	(rect 1856 312 1968 400)
 	(text "BUSMUX" (rect 28 0 94 15)(font "Arial" (font_size 10)))
 	(text "inst6" (rect 3 77 26 87)(font "Arial" ))
 	(port
@@ -907,10 +907,10 @@ applicable agreement for further details.
 		(line (pt 44 16)(pt 68 32)(line_width 1))
 		(line (pt 44 80)(pt 68 64)(line_width 1))
 	)
-	(annotation_block (parameter)(rect 2208 312 2304 336))
+	(annotation_block (parameter)(rect 1992 312 2088 336))
 )
 (symbol
-	(rect 2360 328 2504 424)
+	(rect 2144 328 2288 424)
 	(text "lpm_dff3" (rect 47 1 106 16)(font "Arial" (font_size 10)))
 	(text "inst39" (rect 8 82 37 92)(font "Arial" ))
 	(port
@@ -949,6 +949,23 @@ applicable agreement for further details.
 		(line (pt 16 80)(pt 16 16)(line_width 1))
 		(line (pt 16 42)(pt 22 48)(line_width 1))
 		(line (pt 22 48)(pt 16 54)(line_width 1))
+	)
+)
+(symbol
+	(rect 1600 440 1632 472)
+	(text "GND" (rect 8 16 29 25)(font "Arial" (font_size 6)))
+	(text "inst1" (rect 3 21 26 31)(font "Arial" )(invisible))
+	(port
+		(pt 16 0)
+		(output)
+		(text "1" (rect 18 0 23 10)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 18 0 23 10)(font "Courier New" (bold))(invisible))
+		(line (pt 16 8)(pt 16 0)(line_width 1))
+	)
+	(drawing
+		(line (pt 8 8)(pt 16 16)(line_width 1))
+		(line (pt 16 16)(pt 24 8)(line_width 1))
+		(line (pt 8 8)(pt 24 8)(line_width 1))
 	)
 )
 (connector
@@ -1126,62 +1143,6 @@ applicable agreement for further details.
 	(pt 624 504)
 )
 (connector
-	(pt 2328 440)
-	(pt 2280 440)
-)
-(connector
-	(pt 2072 344)
-	(pt 1976 344)
-	(bus)
-)
-(connector
-	(pt 1792 328)
-	(pt 1816 328)
-	(bus)
-)
-(connector
-	(pt 1792 280)
-	(pt 1792 328)
-	(bus)
-)
-(connector
-	(pt 2128 432)
-	(pt 2128 400)
-)
-(connector
-	(text "instruction[11..1]" (rect 2002 360 2084 370)(font "Arial" ))
-	(pt 1992 376)
-	(pt 2072 376)
-	(bus)
-)
-(connector
-	(pt 2328 392)
-	(pt 2360 392)
-)
-(connector
-	(pt 2328 440)
-	(pt 2328 392)
-)
-(connector
-	(pt 2528 384)
-	(pt 2504 384)
-	(bus)
-)
-(connector
-	(pt 2528 280)
-	(pt 2528 384)
-	(bus)
-)
-(connector
-	(pt 2184 360)
-	(pt 2360 360)
-	(bus)
-)
-(connector
-	(pt 2128 432)
-	(pt 2216 432)
-)
-(connector
 	(text "<<__$DEF_ALIAS63222>>" (rect 664 360 793 370)(font "Arial" )(invisible))
 	(pt 656 376)
 	(pt 760 376)
@@ -1214,11 +1175,6 @@ applicable agreement for further details.
 	(pt 560 448)
 )
 (connector
-	(pt 1792 280)
-	(pt 2528 280)
-	(bus)
-)
-(connector
 	(pt 1424 200)
 	(pt 1424 152)
 )
@@ -1229,42 +1185,8 @@ applicable agreement for further details.
 )
 (connector
 	(pt 1360 136)
-	(pt 1360 280)
-	(bus)
-)
-(connector
-	(pt 1360 136)
 	(pt 1384 136)
 	(bus)
-)
-(connector
-	(pt 1360 280)
-	(pt 1792 280)
-	(bus)
-)
-(connector
-	(text "clk" (rect 2298 368 2312 378)(font "Arial" ))
-	(pt 2288 376)
-	(pt 2360 376)
-)
-(connector
-	(text "read_com" (rect 2138 440 2186 450)(font "Arial" ))
-	(pt 2216 448)
-	(pt 2128 448)
-)
-(connector
-	(text "jmp" (rect 1842 408 1859 418)(font "Arial" ))
-	(pt 1904 424)
-	(pt 1832 424)
-)
-(connector
-	(pt 1968 432)
-	(pt 2128 432)
-)
-(connector
-	(text "decode" (rect 1842 424 1877 434)(font "Arial" ))
-	(pt 1904 440)
-	(pt 1832 440)
 )
 (connector
 	(text "<<__$DEF_ALIAS63219>>" (rect 1429 120 1558 130)(font "Arial" )(invisible))
@@ -1321,18 +1243,113 @@ applicable agreement for further details.
 	(pt 1168 664)
 	(bus)
 )
+(connector
+	(pt 1576 328)
+	(pt 1600 328)
+	(bus)
+)
+(connector
+	(pt 1576 280)
+	(pt 1576 328)
+	(bus)
+)
+(connector
+	(pt 1912 432)
+	(pt 1912 400)
+)
+(connector
+	(text "instruction[11..1]" (rect 1786 360 1868 370)(font "Arial" ))
+	(pt 1776 376)
+	(pt 1856 376)
+	(bus)
+)
+(connector
+	(pt 2112 392)
+	(pt 2144 392)
+)
+(connector
+	(pt 2112 440)
+	(pt 2112 392)
+)
+(connector
+	(pt 2312 280)
+	(pt 2312 384)
+	(bus)
+)
+(connector
+	(pt 1360 136)
+	(pt 1360 280)
+	(bus)
+)
+(connector
+	(text "clk" (rect 2082 368 2096 378)(font "Arial" ))
+	(pt 2072 376)
+	(pt 2144 376)
+)
+(connector
+	(text "read_com" (rect 1922 440 1970 450)(font "Arial" ))
+	(pt 2000 448)
+	(pt 1912 448)
+)
+(connector
+	(text "jmp" (rect 1626 408 1643 418)(font "Arial" ))
+	(pt 1688 424)
+	(pt 1616 424)
+)
+(connector
+	(pt 1360 280)
+	(pt 1576 280)
+	(bus)
+)
+(connector
+	(pt 1576 280)
+	(pt 2312 280)
+	(bus)
+)
+(connector
+	(pt 1912 432)
+	(pt 2000 432)
+)
+(connector
+	(pt 2064 440)
+	(pt 2112 440)
+)
+(connector
+	(pt 1752 432)
+	(pt 1912 432)
+)
+(connector
+	(pt 1760 344)
+	(pt 1856 344)
+	(bus)
+)
+(connector
+	(pt 1968 360)
+	(pt 2144 360)
+	(bus)
+)
+(connector
+	(pt 2288 384)
+	(pt 2312 384)
+	(bus)
+)
+(connector
+	(text "<<__$DEF_ALIAS69516>>" (rect 1626 424 1755 434)(font "Arial" )(invisible))
+	(pt 1688 440)
+	(pt 1616 440)
+)
 (junction (pt 1072 400))
 (junction (pt 1152 440))
 (junction (pt 1072 440))
 (junction (pt 624 448))
 (junction (pt 640 208))
-(junction (pt 2128 432))
 (junction (pt 656 432))
-(junction (pt 1792 280))
 (junction (pt 1072 512))
 (junction (pt 1072 632))
 (junction (pt 1072 648))
+(junction (pt 1576 280))
+(junction (pt 1912 432))
 (text "DECODING" (rect 680 264 750 276)(font "Arial" (font_size 8)))
-(text "IP" (rect 1720 256 1731 268)(font "Arial" (font_size 8)))
+(text "IP" (rect 1560 256 1571 268)(font "Arial" (font_size 8)))
 (rectangle (rect 608 240 1376 696))
-(rectangle (rect 1712 232 2688 480))
+(rectangle (rect 1560 232 2352 480))

@@ -38,9 +38,25 @@ applicable agreement for further details.
 )
 (pin
 	(input)
+	(rect 912 640 1080 656)
+	(text "INPUT" (rect 133 0 161 9)(font "Arial" (font_size 6)))
+	(text "clk" (rect 5 0 19 10)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12)(line_width 1))
+		(line (pt 92 4)(pt 117 4)(line_width 1))
+		(line (pt 121 8)(pt 168 8)(line_width 1))
+		(line (pt 92 12)(pt 92 4)(line_width 1))
+		(line (pt 117 4)(pt 121 8)(line_width 1))
+		(line (pt 117 12)(pt 121 8)(line_width 1))
+	)
+	(text "VCC" (rect 136 7 156 16)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
 	(rect 912 616 1080 632)
 	(text "INPUT" (rect 133 0 161 9)(font "Arial" (font_size 6)))
-	(text "control[2..0]" (rect 5 0 64 10)(font "Arial" ))
+	(text "control[1..0]" (rect 5 0 64 10)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 92 12)(pt 117 12)(line_width 1))
@@ -69,30 +85,6 @@ applicable agreement for further details.
 	)
 	(flipy)
 	(text "VCC" (rect 152 7 172 16)(font "Arial" (font_size 6)))
-)
-(symbol
-	(rect 1208 608 1256 640)
-	(text "WIRE" (rect 1 0 25 9)(font "Arial" (font_size 6)))
-	(text "inst4" (rect 3 21 26 31)(font "Arial" ))
-	(port
-		(pt 0 16)
-		(input)
-		(text "IN" (rect 2 7 13 17)(font "Courier New" (bold))(invisible))
-		(text "IN" (rect 2 7 13 17)(font "Courier New" (bold))(invisible))
-		(line (pt 0 16)(pt 14 16)(line_width 1))
-	)
-	(port
-		(pt 48 16)
-		(output)
-		(text "OUT" (rect 32 7 55 17)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 32 7 55 17)(font "Courier New" (bold))(invisible))
-		(line (pt 32 16)(pt 48 16)(line_width 1))
-	)
-	(drawing
-		(line (pt 14 7)(pt 32 16)(line_width 1))
-		(line (pt 14 25)(pt 14 7)(line_width 1))
-		(line (pt 14 25)(pt 32 16)(line_width 1))
-	)
 )
 (symbol
 	(rect 1160 376 1288 584)
@@ -1215,6 +1207,44 @@ applicable agreement for further details.
 		(arc (pt 31 37)(pt 30 12)(rect 18 12 43 37)(line_width 1))
 	)
 )
+(symbol
+	(rect 1184 200 1280 248)
+	(text "lpm_constant1" (rect 6 1 106 16)(font "Arial" (font_size 10)))
+	(text "inst1" (rect 8 34 31 44)(font "Arial" ))
+	(port
+		(pt 96 24)
+		(output)
+		(text "result[15..0]" (rect 0 0 67 12)(font "Arial" (font_size 8)))
+		(text "result[15..0]" (rect 93 -31 160 -19)(font "Arial" (font_size 8))(invisible))
+		(line (pt 96 24)(pt 80 24)(line_width 3))
+	)
+	(drawing
+		(text "5" (rect 75 19 80 29)(font "Arial" ))
+		(text "16" (rect 85 25 96 35)(font "Arial" ))
+		(line (pt 16 16)(pt 80 16)(line_width 1))
+		(line (pt 80 16)(pt 80 32)(line_width 1))
+		(line (pt 80 32)(pt 16 32)(line_width 1))
+		(line (pt 16 32)(pt 16 16)(line_width 1))
+		(line (pt 80 28)(pt 88 20)(line_width 1))
+	)
+)
+(symbol
+	(rect 1344 160 1376 192)
+	(text "GND" (rect 8 16 29 25)(font "Arial" (font_size 6)))
+	(text "inst2" (rect 3 21 26 31)(font "Arial" )(invisible))
+	(port
+		(pt 16 0)
+		(output)
+		(text "1" (rect 18 0 23 10)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 18 0 23 10)(font "Courier New" (bold))(invisible))
+		(line (pt 16 8)(pt 16 0)(line_width 1))
+	)
+	(drawing
+		(line (pt 8 8)(pt 16 16)(line_width 1))
+		(line (pt 16 16)(pt 24 8)(line_width 1))
+		(line (pt 8 8)(pt 24 8)(line_width 1))
+	)
+)
 (connector
 	(pt 1328 520)
 	(pt 1328 760)
@@ -1228,11 +1258,6 @@ applicable agreement for further details.
 	(text "en[7]" (rect 1298 504 1322 514)(font "Arial" ))
 	(pt 1288 520)
 	(pt 1328 520)
-)
-(connector
-	(text "con[1]" (rect 1113 552 1143 562)(font "Arial" ))
-	(pt 1128 568)
-	(pt 1104 568)
 )
 (connector
 	(text "<<__$DEF_ALIAS3308>>" (rect 1032 549 1042 672)(font "Arial" )(vertical)(invisible))
@@ -1252,12 +1277,6 @@ applicable agreement for further details.
 (connector
 	(pt 1040 528)
 	(pt 752 528)
-)
-(connector
-	(text "con[2..0]" (rect 1090 608 1133 618)(font "Arial" ))
-	(pt 1080 624)
-	(pt 1128 624)
-	(bus)
 )
 (connector
 	(text "<<__$DEF_ALIAS3306>>" (rect 922 560 1045 570)(font "Arial" )(invisible))
@@ -1293,16 +1312,6 @@ applicable agreement for further details.
 (connector
 	(pt 1144 624)
 	(pt 1144 512)
-)
-(connector
-	(text "con[2]" (rect 882 504 912 514)(font "Arial" ))
-	(pt 872 512)
-	(pt 1144 512)
-)
-(connector
-	(text "con[0]" (rect 1171 608 1201 618)(font "Arial" ))
-	(pt 1160 624)
-	(pt 1208 624)
 )
 (connector
 	(pt 1128 624)
@@ -1401,11 +1410,6 @@ applicable agreement for further details.
 (connector
 	(pt 1296 552)
 	(pt 1296 760)
-)
-(connector
-	(text "clk" (rect 1289 608 1303 618)(font "Arial" ))
-	(pt 1256 624)
-	(pt 1480 624)
 )
 (connector
 	(pt 1304 408)
@@ -1857,10 +1861,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 1480 624)
-	(pt 1480 696)
-)
-(connector
 	(pt 1696 192)
 	(pt 1704 192)
 	(bus)
@@ -1921,10 +1921,6 @@ applicable agreement for further details.
 (connector
 	(pt 1480 472)
 	(pt 1480 584)
-)
-(connector
-	(pt 1480 584)
-	(pt 1480 624)
 )
 (connector
 	(pt 1936 176)
@@ -2139,9 +2135,54 @@ applicable agreement for further details.
 	(pt 1792 792)
 )
 (connector
+	(pt 1480 584)
+	(pt 1480 648)
+)
+(connector
+	(pt 1480 648)
+	(pt 1480 696)
+)
+(connector
+	(text "clk" (rect 1265 632 1279 642)(font "Arial" ))
+	(pt 1080 648)
+	(pt 1480 648)
+)
+(connector
+	(text "con[0]" (rect 1113 552 1143 562)(font "Arial" ))
+	(pt 1128 568)
+	(pt 1104 568)
+)
+(connector
+	(text "con[1]" (rect 882 504 912 514)(font "Arial" ))
+	(pt 872 512)
+	(pt 1144 512)
+)
+(connector
+	(text "con[1..0]" (rect 1090 608 1133 618)(font "Arial" ))
+	(pt 1080 624)
+	(pt 1128 624)
+	(bus)
+)
+(connector
+	(text "<<__$DEF_ALIAS7731>>" (rect 1116 168 1239 178)(font "Arial" )(invisible))
+	(pt 1360 160)
+	(pt 2432 160)
+	(bus)
+)
+(connector
 	(text "<<__$DEF_ALIAS7731>>" (rect 1116 168 1239 178)(font "Arial" )(invisible))
 	(pt 1096 160)
-	(pt 2432 160)
+	(pt 1296 160)
+	(bus)
+)
+(connector
+	(pt 1296 160)
+	(pt 1296 224)
+	(bus)
+)
+(connector
+	(pt 1280 224)
+	(pt 1296 224)
 	(bus)
 )
 (junction (pt 1328 760))
@@ -2166,7 +2207,6 @@ applicable agreement for further details.
 (junction (pt 1464 144))
 (junction (pt 1376 608))
 (junction (pt 1744 760))
-(junction (pt 1480 624))
 (junction (pt 1704 192))
 (junction (pt 2120 192))
 (junction (pt 1464 232))
@@ -2192,3 +2232,4 @@ applicable agreement for further details.
 (junction (pt 1904 344))
 (junction (pt 1792 608))
 (junction (pt 1792 720))
+(junction (pt 1480 648))

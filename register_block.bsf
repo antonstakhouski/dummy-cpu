@@ -33,9 +33,16 @@ applicable agreement for further details.
 	(port
 		(pt 0 48)
 		(input)
-		(text "control[2..0]" (rect 0 0 67 12)(font "Arial" (font_size 8)))
-		(text "control[2..0]" (rect 21 43 88 55)(font "Arial" (font_size 8)))
+		(text "control[1..0]" (rect 0 0 67 12)(font "Arial" (font_size 8)))
+		(text "control[1..0]" (rect 21 43 88 55)(font "Arial" (font_size 8)))
 		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "clk" (rect 0 0 16 12)(font "Arial" (font_size 8)))
+		(text "clk" (rect 21 59 37 71)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64)(line_width 1))
 	)
 	(port
 		(pt 192 32)
