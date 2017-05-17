@@ -86,22 +86,6 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1080 424 1256 440)
-	(text "OUTPUT" (rect 1 0 39 9)(font "Arial" (font_size 6)))
-	(text "stage[2..0]" (rect 90 0 143 10)(font "Arial" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 0 8)(pt 52 8)(line_width 1))
-		(line (pt 52 4)(pt 78 4)(line_width 1))
-		(line (pt 52 12)(pt 78 12)(line_width 1))
-		(line (pt 52 12)(pt 52 4)(line_width 1))
-		(line (pt 78 4)(pt 82 8)(line_width 1))
-		(line (pt 82 8)(pt 78 12)(line_width 1))
-		(line (pt 78 12)(pt 82 8)(line_width 1))
-	)
-)
-(pin
-	(output)
 	(rect 1080 456 1256 472)
 	(text "OUTPUT" (rect 1 0 39 9)(font "Arial" (font_size 6)))
 	(text "reg_add[3..0]" (rect 90 0 154 10)(font "Arial" ))
@@ -196,6 +180,22 @@ applicable agreement for further details.
 		(line (pt 78 12)(pt 82 8)(line_width 1))
 	)
 )
+(pin
+	(output)
+	(rect 1080 424 1256 440)
+	(text "OUTPUT" (rect 1 0 39 9)(font "Arial" (font_size 6)))
+	(text "stage[3..0]" (rect 90 0 143 10)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8)(line_width 1))
+		(line (pt 52 4)(pt 78 4)(line_width 1))
+		(line (pt 52 12)(pt 78 12)(line_width 1))
+		(line (pt 52 12)(pt 52 4)(line_width 1))
+		(line (pt 78 4)(pt 82 8)(line_width 1))
+		(line (pt 82 8)(pt 78 12)(line_width 1))
+		(line (pt 78 12)(pt 82 8)(line_width 1))
+	)
+)
 (symbol
 	(rect 1080 584 1280 680)
 	(text "ram_block" (rect 5 0 65 12)(font "Arial" (font_size 8)))
@@ -239,8 +239,8 @@ applicable agreement for further details.
 	(port
 		(pt 160 32)
 		(output)
-		(text "stage[2..0]" (rect 0 0 60 12)(font "Arial" (font_size 8)))
-		(text "stage[2..0]" (rect 79 27 139 39)(font "Arial" (font_size 8)))
+		(text "stage[3..0]" (rect 0 0 60 12)(font "Arial" (font_size 8)))
+		(text "stage[3..0]" (rect 79 27 139 39)(font "Arial" (font_size 8)))
 		(line (pt 160 32)(pt 144 32)(line_width 3))
 	)
 	(port

@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Stratix II"
 set_global_assignment -name DEVICE AUTO
-set_global_assignment -name TOP_LEVEL_ENTITY pc
+set_global_assignment -name TOP_LEVEL_ENTITY alu
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 9.1
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "09:42:14  OCTOBER 23, 2016"
 set_global_assignment -name LAST_QUARTUS_VERSION "9.1 SP2"
@@ -89,12 +89,19 @@ set_global_assignment -name QIP_FILE lpm_bustri9.qip
 set_global_assignment -name QIP_FILE lpm_constant1.qip
 set_global_assignment -name BDF_FILE pc.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE pc.vwf
+set_global_assignment -name BDF_FILE if.bdf
+set_global_assignment -name BDF_FILE op_f.bdf
+set_global_assignment -name QIP_FILE or_9.qip
+set_global_assignment -name BDF_FILE alu.bdf
+set_global_assignment -name QIP_FILE and32.qip
+set_global_assignment -name BDF_FILE myand.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE myand.vwf
+set_global_assignment -name BDF_FILE mynand.bdf
+set_global_assignment -name QIP_FILE myshift.qip
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
 set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE pc.vwf
-set_global_assignment -name BDF_FILE if.bdf
-set_global_assignment -name BDF_FILE op_f.bdf
-set_global_assignment -name QIP_FILE or_9.qip
+set_global_assignment -name VECTOR_WAVEFORM_FILE alu.vwf
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE alu.vwf
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
