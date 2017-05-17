@@ -21,20 +21,20 @@ applicable agreement for further details.
 (header "symbol" (version "1.1"))
 (symbol
 	(rect 0 0 160 96)
-	(text "lpm_add_sub0" (rect 38 1 137 16)(font "Arial" (font_size 10)))
+	(text "lpm_add_sub2" (rect 38 1 137 16)(font "Arial" (font_size 10)))
 	(text "inst" (rect 8 82 25 92)(font "Arial" ))
 	(port
 		(pt 0 40)
 		(input)
-		(text "dataa[15..0]" (rect 0 0 67 12)(font "Arial" (font_size 8)))
-		(text "dataa[15..0]" (rect 4 29 61 40)(font "Arial" (font_size 8)))
+		(text "dataa[10..0]" (rect 0 0 67 12)(font "Arial" (font_size 8)))
+		(text "dataa[10..0]" (rect 4 29 61 40)(font "Arial" (font_size 8)))
 		(line (pt 0 40)(pt 64 40)(line_width 3))
 	)
 	(port
 		(pt 160 56)
 		(output)
-		(text "result[15..0]" (rect 0 0 67 12)(font "Arial" (font_size 8)))
-		(text "result[15..0]" (rect 100 45 155 56)(font "Arial" (font_size 8)))
+		(text "result[10..0]" (rect 0 0 67 12)(font "Arial" (font_size 8)))
+		(text "result[10..0]" (rect 100 45 155 56)(font "Arial" (font_size 8)))
 		(line (pt 160 56)(pt 96 56)(line_width 3))
 	)
 	(drawing

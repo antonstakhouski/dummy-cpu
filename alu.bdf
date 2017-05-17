@@ -282,39 +282,6 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 280 -480 448 -400)
-	(text "myshift" (rect 63 2 113 17)(font "Arial" (font_size 10)))
-	(text "inst7" (rect 8 66 31 76)(font "Arial" ))
-	(port
-		(pt 0 24)
-		(input)
-		(text "data[15..0]" (rect 0 0 60 12)(font "Arial" (font_size 8)))
-		(text "data[15..0]" (rect 20 19 80 31)(font "Arial" (font_size 8)))
-		(line (pt 0 24)(pt 16 24)(line_width 3))
-	)
-	(port
-		(pt 0 40)
-		(input)
-		(text "distance" (rect 0 0 48 12)(font "Arial" (font_size 8)))
-		(text "distance" (rect 20 35 68 47)(font "Arial" (font_size 8)))
-		(line (pt 0 40)(pt 16 40)(line_width 1))
-	)
-	(port
-		(pt 168 24)
-		(output)
-		(text "result[15..0]" (rect 0 0 67 12)(font "Arial" (font_size 8)))
-		(text "result[15..0]" (rect 92 19 159 31)(font "Arial" (font_size 8)))
-		(line (pt 168 24)(pt 152 24)(line_width 3))
-	)
-	(drawing
-		(text "ROTATE right" (rect 21 54 90 64)(font "Arial" ))
-		(line (pt 16 16)(pt 16 64)(line_width 1))
-		(line (pt 152 16)(pt 152 64)(line_width 1))
-		(line (pt 16 16)(pt 152 16)(line_width 1))
-		(line (pt 16 64)(pt 152 64)(line_width 1))
-	)
-)
-(symbol
 	(rect 464 -480 544 -440)
 	(text "lpm_bustri7" (rect 7 1 86 16)(font "Arial" (font_size 10)))
 	(text "inst8" (rect 8 26 31 36)(font "Arial" ))
@@ -455,21 +422,6 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 216 -488 248 -472)
-	(text "VCC" (rect 7 0 27 9)(font "Arial" (font_size 6)))
-	(text "inst12" (rect 3 5 32 15)(font "Arial" )(invisible))
-	(port
-		(pt 16 16)
-		(output)
-		(text "1" (rect 19 7 24 17)(font "Courier New" (bold))(invisible))
-		(text "1" (rect 19 7 24 17)(font "Courier New" (bold))(invisible))
-		(line (pt 16 16)(pt 16 8)(line_width 1))
-	)
-	(drawing
-		(line (pt 8 8)(pt 24 8)(line_width 1))
-	)
-)
-(symbol
 	(rect 280 -208 432 -112)
 	(text "myand" (rect 5 0 43 12)(font "Arial" (font_size 8)))
 	(text "inst5" (rect 8 82 31 92)(font "Arial" ))
@@ -498,15 +450,43 @@ applicable agreement for further details.
 		(rectangle (rect 16 16 136 80)(line_width 1))
 	)
 )
+(symbol
+	(rect 280 -480 464 -400)
+	(text "myshift" (rect 71 2 121 17)(font "Arial" (font_size 10)))
+	(text "inst7" (rect 8 66 31 76)(font "Arial" ))
+	(port
+		(pt 0 24)
+		(input)
+		(text "data[15..0]" (rect 0 0 60 12)(font "Arial" (font_size 8)))
+		(text "data[15..0]" (rect 20 19 80 31)(font "Arial" (font_size 8)))
+		(line (pt 0 24)(pt 16 24)(line_width 3))
+	)
+	(port
+		(pt 0 40)
+		(input)
+		(text "distance[3..0]" (rect 0 0 76 12)(font "Arial" (font_size 8)))
+		(text "distance[3..0]" (rect 20 35 96 47)(font "Arial" (font_size 8)))
+		(line (pt 0 40)(pt 16 40)(line_width 3))
+	)
+	(port
+		(pt 184 24)
+		(output)
+		(text "result[15..0]" (rect 0 0 67 12)(font "Arial" (font_size 8)))
+		(text "result[15..0]" (rect 108 19 175 31)(font "Arial" (font_size 8)))
+		(line (pt 184 24)(pt 168 24)(line_width 3))
+	)
+	(drawing
+		(text "ROTATE right" (rect 21 54 90 64)(font "Arial" ))
+		(line (pt 16 16)(pt 16 64)(line_width 1))
+		(line (pt 168 16)(pt 168 64)(line_width 1))
+		(line (pt 16 16)(pt 168 16)(line_width 1))
+		(line (pt 16 64)(pt 168 64)(line_width 1))
+	)
+)
 (connector
 	(text "clk" (rect 394 64 408 74)(font "Arial" ))
 	(pt 416 72)
 	(pt 384 72)
-)
-(connector
-	(pt 448 -456)
-	(pt 464 -456)
-	(bus)
 )
 (connector
 	(text "out[15..0]" (rect 544 -472 591 -462)(font "Arial" ))
@@ -565,16 +545,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 144 -280)
-	(pt 232 -280)
-	(bus)
-)
-(connector
-	(pt 232 -368)
-	(pt 232 -280)
-	(bus)
-)
-(connector
 	(pt 280 -160)
 	(pt 264 -160)
 	(bus)
@@ -603,14 +573,6 @@ applicable agreement for further details.
 	(pt 264 -456)
 	(pt 264 -352)
 	(bus)
-)
-(connector
-	(pt 280 -440)
-	(pt 232 -440)
-)
-(connector
-	(pt 232 -440)
-	(pt 232 -472)
 )
 (connector
 	(pt 232 -280)
@@ -676,6 +638,23 @@ applicable agreement for further details.
 (connector
 	(pt 432 -176)
 	(pt 464 -176)
+	(bus)
+)
+(connector
+	(text "<<__$DEF_ALIAS73166>>" (rect 154 -288 283 -278)(font "Arial" )(invisible))
+	(pt 144 -280)
+	(pt 232 -280)
+	(bus)
+)
+(connector
+	(text "op1[3..0]" (rect 226 -456 269 -446)(font "Arial" ))
+	(pt 240 -440)
+	(pt 280 -440)
+	(bus)
+)
+(connector
+	(pt 232 -368)
+	(pt 232 -280)
 	(bus)
 )
 (junction (pt 232 -280))
