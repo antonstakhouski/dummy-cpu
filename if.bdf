@@ -1297,12 +1297,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "instruction[31..21]" (rect 1082 616 1170 626)(font "Arial" ))
-	(pt 1072 632)
-	(pt 1168 632)
-	(bus)
-)
-(connector
 	(pt 1072 400)
 	(pt 1072 440)
 	(bus)
@@ -1459,6 +1453,12 @@ applicable agreement for further details.
 (connector
 	(pt 1936 424)
 	(pt 1824 424)
+)
+(connector
+	(text "instruction[26..16]" (rect 1082 616 1170 626)(font "Arial" ))
+	(pt 1072 632)
+	(pt 1168 632)
+	(bus)
 )
 (junction (pt 1072 400))
 (junction (pt 1152 440))

@@ -55,7 +55,7 @@
 *.tcl
 *.pin
 *.mif
-# *.hex
+*.hex
 
 # ignore Quartus II generated folders
 db/

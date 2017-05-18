@@ -20,7 +20,7 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.1"))
 (symbol
-	(rect 16 16 184 272)
+	(rect 16 16 216 272)
 	(text "alu" (rect 5 0 21 12)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 242 25 252)(font "Arial" ))
 	(port
@@ -108,27 +108,34 @@ applicable agreement for further details.
 		(line (pt 0 208)(pt 16 208)(line_width 1))
 	)
 	(port
-		(pt 168 32)
+		(pt 200 32)
 		(output)
 		(text "res[15..0]" (rect 0 0 54 12)(font "Arial" (font_size 8)))
-		(text "res[15..0]" (rect 93 27 147 39)(font "Arial" (font_size 8)))
-		(line (pt 168 32)(pt 152 32)(line_width 3))
+		(text "res[15..0]" (rect 125 27 179 39)(font "Arial" (font_size 8)))
+		(line (pt 200 32)(pt 184 32)(line_width 3))
 	)
 	(port
-		(pt 168 48)
+		(pt 200 48)
 		(output)
 		(text "sign" (rect 0 0 23 12)(font "Arial" (font_size 8)))
-		(text "sign" (rect 124 43 147 55)(font "Arial" (font_size 8)))
-		(line (pt 168 48)(pt 152 48)(line_width 1))
+		(text "sign" (rect 156 43 179 55)(font "Arial" (font_size 8)))
+		(line (pt 200 48)(pt 184 48)(line_width 1))
 	)
 	(port
-		(pt 168 64)
+		(pt 200 64)
 		(output)
 		(text "empty" (rect 0 0 35 12)(font "Arial" (font_size 8)))
-		(text "empty" (rect 112 59 147 71)(font "Arial" (font_size 8)))
-		(line (pt 168 64)(pt 152 64)(line_width 1))
+		(text "empty" (rect 144 59 179 71)(font "Arial" (font_size 8)))
+		(line (pt 200 64)(pt 184 64)(line_width 1))
+	)
+	(port
+		(pt 200 80)
+		(output)
+		(text "stack_out[15..0]" (rect 0 0 92 12)(font "Arial" (font_size 8)))
+		(text "stack_out[15..0]" (rect 87 75 179 87)(font "Arial" (font_size 8)))
+		(line (pt 200 80)(pt 184 80)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 152 240)(line_width 1))
+		(rectangle (rect 16 16 184 240)(line_width 1))
 	)
 )

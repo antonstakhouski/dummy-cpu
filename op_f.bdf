@@ -2014,12 +2014,6 @@ applicable agreement for further details.
 	(pt 672 448)
 )
 (connector
-	(text "op2[15..5]" (rect 626 384 675 394)(font "Arial" ))
-	(pt 776 400)
-	(pt 616 400)
-	(bus)
-)
-(connector
 	(pt 1056 456)
 	(pt 1064 456)
 )
@@ -2223,6 +2217,12 @@ applicable agreement for further details.
 (connector
 	(pt 1240 1152)
 	(pt 1216 1152)
+)
+(connector
+	(text "op2[10..0]" (rect 626 384 675 394)(font "Arial" ))
+	(pt 776 400)
+	(pt 616 400)
+	(bus)
 )
 (junction (pt 2184 352))
 (junction (pt 2208 352))

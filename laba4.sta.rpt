@@ -1,0 +1,406 @@
+TimeQuest Timing Analyzer report for laba4
+Tue Oct 25 15:21:13 2016
+Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Slow 900mV 85C Model Fmax Summary
+  6. Slow 900mV 85C Model Setup Summary
+  7. Slow 900mV 85C Model Hold Summary
+  8. Slow 900mV 85C Model Recovery Summary
+  9. Slow 900mV 85C Model Removal Summary
+ 10. Slow 900mV 85C Model Minimum Pulse Width Summary
+ 11. Slow 900mV 85C Model Datasheet Report
+ 12. Slow 900mV 85C Model Metastability Report
+ 13. Slow 900mV 0C Model Fmax Summary
+ 14. Slow 900mV 0C Model Setup Summary
+ 15. Slow 900mV 0C Model Hold Summary
+ 16. Slow 900mV 0C Model Recovery Summary
+ 17. Slow 900mV 0C Model Removal Summary
+ 18. Slow 900mV 0C Model Minimum Pulse Width Summary
+ 19. Slow 900mV 0C Model Datasheet Report
+ 20. Slow 900mV 0C Model Metastability Report
+ 21. Fast 900mV 0C Model Setup Summary
+ 22. Fast 900mV 0C Model Hold Summary
+ 23. Fast 900mV 0C Model Recovery Summary
+ 24. Fast 900mV 0C Model Removal Summary
+ 25. Fast 900mV 0C Model Minimum Pulse Width Summary
+ 26. Fast 900mV 0C Model Datasheet Report
+ 27. Fast 900mV 0C Model Metastability Report
+ 28. Multicorner Timing Analysis Summary
+ 29. Board Trace Model Assignments
+ 30. Input Transition Times
+ 31. Signal Integrity Metrics (Slow 900mv 0c Model)
+ 32. Signal Integrity Metrics (Slow 900mv 85c Model)
+ 33. Signal Integrity Metrics (Fast 900mv 0c Model)
+ 34. Clock Transfers
+ 35. Report TCCS
+ 36. Report RSKM
+ 37. Unconstrained Paths
+ 38. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                    ;
++--------------------+-------------------------------------------------+
+; Quartus II Version ; Version 9.1 Build 222 10/21/2009 SJ Web Edition ;
+; Revision Name      ; laba4                                           ;
+; Device Family      ; Arria II GX                                     ;
+; Device Name        ; EP2AGX45CU17C4                                  ;
+; Timing Models      ; Preliminary                                     ;
+; Delay Model        ; Combined                                        ;
+; Rise/Fall Delays   ; Enabled                                         ;
++--------------------+-------------------------------------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 2      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
+----------
+; Clocks ;
+----------
+No clocks to report.
+
+
+-------------------------------------
+; Slow 900mV 85C Model Fmax Summary ;
+-------------------------------------
+No paths to report.
+
+
+--------------------------------------
+; Slow 900mV 85C Model Setup Summary ;
+--------------------------------------
+No paths to report.
+
+
+-------------------------------------
+; Slow 900mV 85C Model Hold Summary ;
+-------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Slow 900mV 85C Model Recovery Summary ;
+-----------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Slow 900mV 85C Model Removal Summary ;
+----------------------------------------
+No paths to report.
+
+
+----------------------------------------------------
+; Slow 900mV 85C Model Minimum Pulse Width Summary ;
+----------------------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Slow 900mV 85C Model Datasheet Report ;
+-----------------------------------------
+Nothing to report.
+
+
+---------------------------------------------
+; Slow 900mV 85C Model Metastability Report ;
+---------------------------------------------
+No synchronizer chains to report.
+
+
+------------------------------------
+; Slow 900mV 0C Model Fmax Summary ;
+------------------------------------
+No paths to report.
+
+
+-------------------------------------
+; Slow 900mV 0C Model Setup Summary ;
+-------------------------------------
+No paths to report.
+
+
+------------------------------------
+; Slow 900mV 0C Model Hold Summary ;
+------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Slow 900mV 0C Model Recovery Summary ;
+----------------------------------------
+No paths to report.
+
+
+---------------------------------------
+; Slow 900mV 0C Model Removal Summary ;
+---------------------------------------
+No paths to report.
+
+
+---------------------------------------------------
+; Slow 900mV 0C Model Minimum Pulse Width Summary ;
+---------------------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Slow 900mV 0C Model Datasheet Report ;
+----------------------------------------
+Nothing to report.
+
+
+--------------------------------------------
+; Slow 900mV 0C Model Metastability Report ;
+--------------------------------------------
+No synchronizer chains to report.
+
+
+-------------------------------------
+; Fast 900mV 0C Model Setup Summary ;
+-------------------------------------
+No paths to report.
+
+
+------------------------------------
+; Fast 900mV 0C Model Hold Summary ;
+------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Fast 900mV 0C Model Recovery Summary ;
+----------------------------------------
+No paths to report.
+
+
+---------------------------------------
+; Fast 900mV 0C Model Removal Summary ;
+---------------------------------------
+No paths to report.
+
+
+---------------------------------------------------
+; Fast 900mV 0C Model Minimum Pulse Width Summary ;
+---------------------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Fast 900mV 0C Model Datasheet Report ;
+----------------------------------------
+Nothing to report.
+
+
+--------------------------------------------
+; Fast 900mV 0C Model Metastability Report ;
+--------------------------------------------
+No synchronizer chains to report.
+
+
++----------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                        ;
++------------------+-------+------+----------+---------+---------------------+
+; Clock            ; Setup ; Hold ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+-------+------+----------+---------+---------------------+
+; Worst-case Slack ; N/A   ; N/A  ; N/A      ; N/A     ; N/A                 ;
+; Design-wide TNS  ; 0.0   ; 0.0  ; 0.0      ; 0.0     ; 0.0                 ;
++------------------+-------+------+----------+---------+---------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Board Trace Model Assignments                                                                                                                                                                                                                                                                                                                                    ;
++---------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+
+; Pin           ; I/O Standard ; Near Tline Length ; Near Tline L per Length ; Near Tline C per Length ; Near Series R ; Near Differential R ; Near Pull-up R ; Near Pull-down R ; Near C ; Far Tline Length ; Far Tline L per Length ; Far Tline C per Length ; Far Series R ; Far Pull-up R ; Far Pull-down R ; Far C ; Termination Voltage ; Far Differential R ;
++---------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+
+; ~ALTERA_nCEO~ ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ;
++---------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+
+
+
++---------------------------------------------------------------+
+; Input Transition Times                                        ;
++------------+--------------+-----------------+-----------------+
+; Pin        ; I/O Standard ; 10-90 Rise Time ; 90-10 Fall Time ;
++------------+--------------+-----------------+-----------------+
+; control[5] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; control[4] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; control[3] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; control[2] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; control[1] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; control[0] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; address[7] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; address[6] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; address[5] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; address[4] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; address[3] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; address[2] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; address[1] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; address[0] ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; data[5]    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; data[4]    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; data[3]    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; data[2]    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; data[1]    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; data[0]    ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
++------------+--------------+-----------------+-----------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Slow 900mv 0c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin           ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; ~ALTERA_nCEO~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.28 V                       ; 2.31e-007 V                  ; 2.31 V              ; -0.014 V            ; 0.242 V                              ; 0.121 V                              ; 5.38e-010 s                 ; 6.72e-010 s                 ; No                         ; Yes                        ; 2.28 V                      ; 2.31e-007 V                 ; 2.31 V             ; -0.014 V           ; 0.242 V                             ; 0.121 V                             ; 5.38e-010 s                ; 6.72e-010 s                ; No                        ; Yes                       ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Slow 900mv 85c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin           ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; ~ALTERA_nCEO~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.28 V                       ; 2.14e-005 V                  ; 2.3 V               ; -0.00809 V          ; 0.198 V                              ; 0.093 V                              ; 6.49e-010 s                 ; 8.3e-010 s                  ; Yes                        ; Yes                        ; 2.28 V                      ; 2.14e-005 V                 ; 2.3 V              ; -0.00809 V         ; 0.198 V                             ; 0.093 V                             ; 6.49e-010 s                ; 8.3e-010 s                 ; Yes                       ; Yes                       ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Fast 900mv 0c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin           ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; ~ALTERA_nCEO~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 1.27e-006 V                  ; 2.67 V              ; -0.0258 V           ; 0.315 V                              ; 0.155 V                              ; 4.23e-010 s                 ; 5.97e-010 s                 ; No                         ; No                         ; 2.62 V                      ; 1.27e-006 V                 ; 2.67 V             ; -0.0258 V          ; 0.315 V                             ; 0.155 V                             ; 4.23e-010 s                ; 5.97e-010 s                ; No                        ; No                        ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 0     ; 0    ;
+; Unconstrained Input Port Paths  ; 0     ; 0    ;
+; Unconstrained Output Ports      ; 0     ; 0    ;
+; Unconstrained Output Port Paths ; 0     ; 0    ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II TimeQuest Timing Analyzer
+    Info: Version 9.1 Build 222 10/21/2009 SJ Web Edition
+    Info: Processing started: Tue Oct 25 15:21:08 2016
+Info: Command: quartus_sta laba4 -c laba4
+Info: qsta_default_script.tcl version: #2
+Info: high junction temperature operating condition is not set. Assuming a default value of '85'.
+Info: low junction temperature operating condition is not set. Assuming a default value of '0'.
+Critical Warning: Synopsys Design Constraints File file not found: 'laba4.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info: No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info: The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning: No clocks defined in design.
+Info: No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
+Warning: Clock uncertainty characteristics of the Arria II GX device family are preliminary
+Info: The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info: No clocks to report
+Info: Analyzing Slow 900mV 85C Model
+Info: No fmax paths to report
+Info: No Setup paths to report
+Info: No Hold paths to report
+Info: No Recovery paths to report
+Info: No Removal paths to report
+Info: No Minimum Pulse Width paths to report
+Info: Analyzing Slow 900mV 0C Model
+Info: Started post-fitting delay annotation
+Warning: Timing characteristics of device EP2AGX45CU17C4 are preliminary
+Info: Delay annotation completed successfully
+Info: No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info: The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning: No clocks defined in design.
+Warning: Clock uncertainty characteristics of the Arria II GX device family are preliminary
+Info: The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info: No fmax paths to report
+Info: No Setup paths to report
+Info: No Hold paths to report
+Info: No Recovery paths to report
+Info: No Removal paths to report
+Info: No Minimum Pulse Width paths to report
+Info: Analyzing Fast 900mV 0C Model
+Info: Started post-fitting delay annotation
+Warning: Timing characteristics of device EP2AGX45CU17C4 are preliminary
+Info: Delay annotation completed successfully
+Info: No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info: The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning: No clocks defined in design.
+Warning: Clock uncertainty characteristics of the Arria II GX device family are preliminary
+Info: The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info: No Setup paths to report
+Info: No Hold paths to report
+Info: No Recovery paths to report
+Info: No Removal paths to report
+Info: No Minimum Pulse Width paths to report
+Info: Design is fully constrained for setup requirements
+Info: Design is fully constrained for hold requirements
+Info: Quartus II TimeQuest Timing Analyzer was successful. 0 errors, 9 warnings
+    Info: Peak virtual memory: 283 megabytes
+    Info: Processing ended: Tue Oct 25 15:21:13 2016
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:03
+
+

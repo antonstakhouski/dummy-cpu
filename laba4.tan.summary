@@ -1,0 +1,46 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 6.936 ns
+From           : cpu:inst1|if:inst|lpm_dff3:inst39|lpm_ff:lpm_ff_component|dffs[9]
+To             : A[9]
+From Clock     : CLOCK
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 6.612 ns
+From           : CLOCK
+To             : C[5]
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Clock Setup: 'CLOCK'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 279.33 MHz ( period = 3.580 ns )
+From           : ram_block:inst3|lpm_ram_io:inst|altram:sram|altsyncram:ram_block|altsyncram_ke91:auto_generated|ram_block1a0~porta_address_reg10
+To             : ram_block:inst3|lpm_ram_io:inst|altram:sram|altsyncram:ram_block|altsyncram_ke91:auto_generated|q_a[1]
+From Clock     : CLOCK
+To Clock       : CLOCK
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+
