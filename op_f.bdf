@@ -1573,9 +1573,9 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 1064 992 1096 1024)
+	(rect 1200 1152 1232 1184)
 	(text "GND" (rect 8 16 29 25)(font "Arial" (font_size 6)))
-	(text "inst62" (rect 3 21 32 31)(font "Arial" )(invisible))
+	(text "inst1" (rect 3 21 26 31)(font "Arial" )(invisible))
 	(port
 		(pt 16 0)
 		(output)
@@ -2103,7 +2103,7 @@ applicable agreement for further details.
 	(pt 448 328)
 )
 (connector
-	(text "read_op21" (rect 410 336 460 346)(font "Arial" ))
+	(text "read_op21" (rect 394 336 444 346)(font "Arial" ))
 	(pt 448 344)
 	(pt 400 344)
 )
@@ -2217,20 +2217,12 @@ applicable agreement for further details.
 	(pt 1400 1136)
 )
 (connector
-	(pt 1048 992)
-	(pt 1048 1152)
-)
-(connector
 	(pt 1032 992)
-	(pt 1048 992)
+	(pt 1144 992)
 )
 (connector
 	(pt 1240 1152)
-	(pt 1048 1152)
-)
-(connector
-	(pt 1080 992)
-	(pt 1144 992)
+	(pt 1216 1152)
 )
 (junction (pt 2184 352))
 (junction (pt 2208 352))

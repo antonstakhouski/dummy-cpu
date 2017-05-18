@@ -372,6 +372,22 @@ applicable agreement for further details.
 		(line (pt 78 12)(pt 82 8)(line_width 1))
 	)
 )
+(pin
+	(output)
+	(rect 760 384 936 400)
+	(text "OUTPUT" (rect 1 0 39 9)(font "Arial" (font_size 6)))
+	(text "ram_w" (rect 90 0 123 10)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8)(line_width 1))
+		(line (pt 52 4)(pt 78 4)(line_width 1))
+		(line (pt 52 12)(pt 78 12)(line_width 1))
+		(line (pt 52 12)(pt 52 4)(line_width 1))
+		(line (pt 78 4)(pt 82 8)(line_width 1))
+		(line (pt 82 8)(pt 78 12)(line_width 1))
+		(line (pt 78 12)(pt 82 8)(line_width 1))
+	)
+)
 (symbol
 	(rect 424 248 488 432)
 	(text "or_10" (rect 16 1 53 16)(font "Arial" (font_size 10)))
@@ -832,6 +848,38 @@ applicable agreement for further details.
 		(line (pt 8 28)(pt 16 20)(line_width 1))
 	)
 )
+(symbol
+	(rect 688 368 752 416)
+	(text "AND2" (rect 1 0 25 9)(font "Arial" (font_size 6)))
+	(text "inst25" (rect 3 37 32 47)(font "Arial" ))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN1" (rect 2 7 19 17)(font "Courier New" (bold))(invisible))
+		(text "IN1" (rect 2 7 19 17)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 14 16)(line_width 1))
+	)
+	(port
+		(pt 0 32)
+		(input)
+		(text "IN2" (rect 2 23 19 33)(font "Courier New" (bold))(invisible))
+		(text "IN2" (rect 2 23 19 33)(font "Courier New" (bold))(invisible))
+		(line (pt 0 32)(pt 14 32)(line_width 1))
+	)
+	(port
+		(pt 64 24)
+		(output)
+		(text "OUT" (rect 48 15 71 25)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 48 15 71 25)(font "Courier New" (bold))(invisible))
+		(line (pt 42 24)(pt 64 24)(line_width 1))
+	)
+	(drawing
+		(line (pt 14 12)(pt 30 12)(line_width 1))
+		(line (pt 14 37)(pt 31 37)(line_width 1))
+		(line (pt 14 12)(pt 14 37)(line_width 1))
+		(arc (pt 31 37)(pt 30 12)(rect 18 12 43 37)(line_width 1))
+	)
+)
 (connector
 	(pt 400 272)
 	(pt 424 272)
@@ -958,11 +1006,6 @@ applicable agreement for further details.
 	(pt 416 512)
 )
 (connector
-	(text "w" (rect 490 488 498 498)(font "Arial" ))
-	(pt 480 504)
-	(pt 512 504)
-)
-(connector
 	(text "reg" (rect 498 336 513 346)(font "Arial" ))
 	(pt 488 344)
 	(pt 512 344)
@@ -1002,11 +1045,6 @@ applicable agreement for further details.
 (connector
 	(pt 400 560)
 	(pt 416 560)
-)
-(connector
-	(text "mem" (rect 490 544 514 554)(font "Arial" ))
-	(pt 480 552)
-	(pt 512 552)
 )
 (connector
 	(pt 616 -24)
@@ -1079,9 +1117,44 @@ applicable agreement for further details.
 	(pt 440 176)
 	(bus)
 )
+(connector
+	(pt 760 392)
+	(pt 752 392)
+)
+(connector
+	(pt 664 552)
+	(pt 664 400)
+)
+(connector
+	(text "mem" (rect 490 544 514 554)(font "Arial" ))
+	(pt 480 552)
+	(pt 664 552)
+)
+(connector
+	(pt 688 400)
+	(pt 664 400)
+)
+(connector
+	(pt 688 384)
+	(pt 640 384)
+)
+(connector
+	(pt 640 504)
+	(pt 640 384)
+)
+(connector
+	(text "w" (rect 490 488 498 498)(font "Arial" ))
+	(pt 480 504)
+	(pt 512 504)
+)
+(connector
+	(pt 512 504)
+	(pt 640 504)
+)
 (junction (pt 680 288))
 (junction (pt 648 320))
 (junction (pt 680 320))
 (junction (pt 680 336))
 (junction (pt 600 344))
 (junction (pt 440 176))
+(junction (pt 512 504))
