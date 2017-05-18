@@ -20,9 +20,9 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.1"))
 (symbol
-	(rect 16 16 152 336)
+	(rect 16 16 152 272)
 	(text "cu" (rect 5 0 19 12)(font "Arial" (font_size 8)))
-	(text "inst" (rect 8 306 25 316)(font "Arial" ))
+	(text "inst" (rect 8 242 25 252)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -114,42 +114,7 @@ applicable agreement for further details.
 		(text "write2" (rect 81 203 115 215)(font "Arial" (font_size 8)))
 		(line (pt 136 208)(pt 120 208)(line_width 1))
 	)
-	(port
-		(pt 136 224)
-		(output)
-		(text "res1" (rect 0 0 25 12)(font "Arial" (font_size 8)))
-		(text "res1" (rect 90 219 115 231)(font "Arial" (font_size 8)))
-		(line (pt 136 224)(pt 120 224)(line_width 1))
-	)
-	(port
-		(pt 136 240)
-		(output)
-		(text "res2" (rect 0 0 25 12)(font "Arial" (font_size 8)))
-		(text "res2" (rect 90 235 115 247)(font "Arial" (font_size 8)))
-		(line (pt 136 240)(pt 120 240)(line_width 1))
-	)
-	(port
-		(pt 136 256)
-		(output)
-		(text "res3" (rect 0 0 25 12)(font "Arial" (font_size 8)))
-		(text "res3" (rect 90 251 115 263)(font "Arial" (font_size 8)))
-		(line (pt 136 256)(pt 120 256)(line_width 1))
-	)
-	(port
-		(pt 136 272)
-		(output)
-		(text "res4" (rect 0 0 25 12)(font "Arial" (font_size 8)))
-		(text "res4" (rect 90 267 115 279)(font "Arial" (font_size 8)))
-		(line (pt 136 272)(pt 120 272)(line_width 1))
-	)
-	(port
-		(pt 136 288)
-		(output)
-		(text "res5" (rect 0 0 25 12)(font "Arial" (font_size 8)))
-		(text "res5" (rect 90 283 115 295)(font "Arial" (font_size 8)))
-		(line (pt 136 288)(pt 120 288)(line_width 1))
-	)
 	(drawing
-		(rectangle (rect 16 16 120 304)(line_width 1))
+		(rectangle (rect 16 16 120 240)(line_width 1))
 	)
 )
