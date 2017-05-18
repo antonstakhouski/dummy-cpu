@@ -96,8 +96,8 @@ applicable agreement for further details.
 	(port
 		(pt 160 192)
 		(output)
-		(text "control[5..0]" (rect 0 0 67 12)(font "Arial" (font_size 8)))
-		(text "control[5..0]" (rect 72 187 139 199)(font "Arial" (font_size 8)))
+		(text "control[1..0]" (rect 0 0 67 12)(font "Arial" (font_size 8)))
+		(text "control[1..0]" (rect 72 187 139 199)(font "Arial" (font_size 8)))
 		(line (pt 160 192)(pt 144 192)(line_width 3))
 	)
 	(port

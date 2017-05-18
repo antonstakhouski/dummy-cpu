@@ -38,22 +38,6 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1568 1520 1744 1536)
-	(text "OUTPUT" (rect 1 0 39 9)(font "Arial" (font_size 6)))
-	(text "control[5..0]" (rect 90 0 149 10)(font "Arial" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 0 8)(pt 52 8)(line_width 1))
-		(line (pt 52 4)(pt 78 4)(line_width 1))
-		(line (pt 52 12)(pt 78 12)(line_width 1))
-		(line (pt 52 12)(pt 52 4)(line_width 1))
-		(line (pt 78 4)(pt 82 8)(line_width 1))
-		(line (pt 82 8)(pt 78 12)(line_width 1))
-		(line (pt 78 12)(pt 82 8)(line_width 1))
-	)
-)
-(pin
-	(output)
 	(rect 1536 784 1712 800)
 	(text "OUTPUT" (rect 1 0 39 9)(font "Arial" (font_size 6)))
 	(text "Address[10..0]" (rect 90 0 161 10)(font "Arial" ))
@@ -197,6 +181,22 @@ applicable agreement for further details.
 	)
 )
 (pin
+	(output)
+	(rect 1568 1520 1744 1536)
+	(text "OUTPUT" (rect 1 0 39 9)(font "Arial" (font_size 6)))
+	(text "control[1..0]" (rect 90 0 149 10)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8)(line_width 1))
+		(line (pt 52 4)(pt 78 4)(line_width 1))
+		(line (pt 52 12)(pt 78 12)(line_width 1))
+		(line (pt 52 12)(pt 52 4)(line_width 1))
+		(line (pt 78 4)(pt 82 8)(line_width 1))
+		(line (pt 82 8)(pt 78 12)(line_width 1))
+		(line (pt 78 12)(pt 82 8)(line_width 1))
+	)
+)
+(pin
 	(bidir)
 	(rect 840 720 1016 736)
 	(text "BIDIR" (rect 151 0 175 9)(font "Arial" (font_size 6)))
@@ -213,30 +213,6 @@ applicable agreement for further details.
 	)
 	(flipy)
 	(text "VCC" (rect 152 7 172 16)(font "Arial" (font_size 6)))
-)
-(symbol
-	(rect 1280 1424 1328 1456)
-	(text "WIRE" (rect 1 0 25 9)(font "Arial" (font_size 6)))
-	(text "inst54" (rect 3 21 32 31)(font "Arial" ))
-	(port
-		(pt 0 16)
-		(input)
-		(text "IN" (rect 2 7 13 17)(font "Courier New" (bold))(invisible))
-		(text "IN" (rect 2 7 13 17)(font "Courier New" (bold))(invisible))
-		(line (pt 0 16)(pt 14 16)(line_width 1))
-	)
-	(port
-		(pt 48 16)
-		(output)
-		(text "OUT" (rect 32 7 55 17)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 32 7 55 17)(font "Courier New" (bold))(invisible))
-		(line (pt 32 16)(pt 48 16)(line_width 1))
-	)
-	(drawing
-		(line (pt 14 7)(pt 32 16)(line_width 1))
-		(line (pt 14 25)(pt 14 7)(line_width 1))
-		(line (pt 14 25)(pt 32 16)(line_width 1))
-	)
 )
 (symbol
 	(rect 1280 1464 1328 1496)
@@ -320,21 +296,6 @@ applicable agreement for further details.
 	)
 	(drawing
 		(rectangle (rect 16 16 176 80)(line_width 1))
-	)
-)
-(symbol
-	(rect 1104 1424 1136 1440)
-	(text "VCC" (rect 7 0 27 9)(font "Arial" (font_size 6)))
-	(text "inst100" (rect 3 5 38 15)(font "Arial" )(invisible))
-	(port
-		(pt 16 16)
-		(output)
-		(text "1" (rect 19 7 24 17)(font "Courier New" (bold))(invisible))
-		(text "1" (rect 19 7 24 17)(font "Courier New" (bold))(invisible))
-		(line (pt 16 16)(pt 16 8)(line_width 1))
-	)
-	(drawing
-		(line (pt 8 8)(pt 24 8)(line_width 1))
 	)
 )
 (symbol
@@ -1374,32 +1335,6 @@ applicable agreement for further details.
 	)
 )
 (connector
-	(text "com[1]" (rect 1353 1424 1387 1434)(font "Arial" ))
-	(pt 1328 1440)
-	(pt 1392 1440)
-)
-(connector
-	(text "com[0]" (rect 1351 1464 1385 1474)(font "Arial" ))
-	(pt 1328 1480)
-	(pt 1392 1480)
-)
-(connector
-	(text "com[5..0]" (rect 1498 1512 1545 1522)(font "Arial" ))
-	(pt 1568 1528)
-	(pt 1392 1528)
-	(bus)
-)
-(connector
-	(pt 1392 1440)
-	(pt 1392 1480)
-	(bus)
-)
-(connector
-	(text "com[5]" (rect 1338 1304 1372 1314)(font "Arial" ))
-	(pt 1392 1320)
-	(pt 1328 1320)
-)
-(connector
 	(pt 1392 1288)
 	(pt 1392 1320)
 	(bus)
@@ -2084,19 +2019,9 @@ applicable agreement for further details.
 	(pt 2328 1024)
 )
 (connector
-	(text "ram_en" (rect 1386 1432 1422 1442)(font "Arial" ))
-	(pt 1120 1440)
-	(pt 1280 1440)
-)
-(connector
 	(text "ram_w" (rect 3002 984 3035 994)(font "Arial" ))
 	(pt 2992 992)
 	(pt 3056 992)
-)
-(connector
-	(pt 1392 1320)
-	(pt 1392 1440)
-	(bus)
 )
 (connector
 	(pt 1392 1480)
@@ -2263,7 +2188,27 @@ applicable agreement for further details.
 	(pt 1204 1320)
 	(pt 1280 1320)
 )
-(junction (pt 1392 1440))
+(connector
+	(pt 1392 1320)
+	(pt 1392 1480)
+	(bus)
+)
+(connector
+	(text "com[0]" (rect 1338 1304 1372 1314)(font "Arial" ))
+	(pt 1392 1320)
+	(pt 1328 1320)
+)
+(connector
+	(text "com[1]" (rect 1351 1464 1385 1474)(font "Arial" ))
+	(pt 1328 1480)
+	(pt 1392 1480)
+)
+(connector
+	(text "com[1..0]" (rect 1498 1512 1545 1522)(font "Arial" ))
+	(pt 1568 1528)
+	(pt 1392 1528)
+	(bus)
+)
 (junction (pt 1392 1480))
 (junction (pt 1392 1320))
 (junction (pt 1216 728))
