@@ -59,6 +59,27 @@ applicable agreement for further details.
 		(line (pt 0 96)(pt 16 96)(line_width 1))
 	)
 	(port
+		(pt 0 112)
+		(input)
+		(text "goto[10..0]" (rect 0 0 60 12)(font "Arial" (font_size 8)))
+		(text "goto[10..0]" (rect 21 107 81 119)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 16 112)(line_width 3))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "sign" (rect 0 0 23 12)(font "Arial" (font_size 8)))
+		(text "sign" (rect 21 123 44 135)(font "Arial" (font_size 8)))
+		(line (pt 0 128)(pt 16 128)(line_width 1))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "exec1" (rect 0 0 35 12)(font "Arial" (font_size 8)))
+		(text "exec1" (rect 21 139 56 151)(font "Arial" (font_size 8)))
+		(line (pt 0 144)(pt 16 144)(line_width 1))
+	)
+	(port
 		(pt 200 32)
 		(output)
 		(text "address[10..0]" (rect 0 0 82 12)(font "Arial" (font_size 8)))
