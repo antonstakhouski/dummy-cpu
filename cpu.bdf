@@ -1162,9 +1162,9 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 2400 864 2568 1088)
+	(rect 2400 864 2568 1120)
 	(text "alu" (rect 5 0 21 12)(font "Arial" (font_size 8)))
-	(text "inst101" (rect 8 210 43 220)(font "Arial" ))
+	(text "inst101" (rect 8 242 43 252)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -1236,6 +1236,20 @@ applicable agreement for further details.
 		(line (pt 0 176)(pt 16 176)(line_width 1))
 	)
 	(port
+		(pt 0 192)
+		(input)
+		(text "push" (rect 0 0 28 12)(font "Arial" (font_size 8)))
+		(text "push" (rect 21 187 49 199)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 16 192)(line_width 1))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "pop" (rect 0 0 21 12)(font "Arial" (font_size 8)))
+		(text "pop" (rect 21 203 42 215)(font "Arial" (font_size 8)))
+		(line (pt 0 208)(pt 16 208)(line_width 1))
+	)
+	(port
 		(pt 168 32)
 		(output)
 		(text "res[15..0]" (rect 0 0 54 12)(font "Arial" (font_size 8)))
@@ -1249,8 +1263,15 @@ applicable agreement for further details.
 		(text "sign" (rect 124 43 147 55)(font "Arial" (font_size 8)))
 		(line (pt 168 48)(pt 152 48)(line_width 1))
 	)
+	(port
+		(pt 168 64)
+		(output)
+		(text "empty" (rect 0 0 35 12)(font "Arial" (font_size 8)))
+		(text "empty" (rect 112 59 147 71)(font "Arial" (font_size 8)))
+		(line (pt 168 64)(pt 152 64)(line_width 1))
+	)
 	(drawing
-		(rectangle (rect 16 16 152 208)(line_width 1))
+		(rectangle (rect 16 16 152 240)(line_width 1))
 	)
 )
 (connector
@@ -2073,6 +2094,16 @@ applicable agreement for further details.
 (connector
 	(pt 1256 904)
 	(pt 1240 904)
+)
+(connector
+	(text "push" (rect 2338 1048 2361 1058)(font "Arial" ))
+	(pt 2400 1056)
+	(pt 2328 1056)
+)
+(connector
+	(text "pop" (rect 2338 1064 2355 1074)(font "Arial" ))
+	(pt 2400 1072)
+	(pt 2328 1072)
 )
 (junction (pt 1392 1440))
 (junction (pt 1392 1480))
