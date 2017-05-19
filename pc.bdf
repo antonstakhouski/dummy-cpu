@@ -228,6 +228,38 @@ applicable agreement for further details.
 		(line (pt 78 12)(pt 82 8)(line_width 1))
 	)
 )
+(pin
+	(output)
+	(rect 816 872 992 888)
+	(text "OUTPUT" (rect 1 0 39 9)(font "Arial" (font_size 6)))
+	(text "empty" (rect 90 0 120 10)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8)(line_width 1))
+		(line (pt 52 4)(pt 78 4)(line_width 1))
+		(line (pt 52 12)(pt 78 12)(line_width 1))
+		(line (pt 52 12)(pt 52 4)(line_width 1))
+		(line (pt 78 4)(pt 82 8)(line_width 1))
+		(line (pt 82 8)(pt 78 12)(line_width 1))
+		(line (pt 78 12)(pt 82 8)(line_width 1))
+	)
+)
+(pin
+	(output)
+	(rect 816 888 992 904)
+	(text "OUTPUT" (rect 1 0 39 9)(font "Arial" (font_size 6)))
+	(text "full" (rect 90 0 104 10)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8)(line_width 1))
+		(line (pt 52 4)(pt 78 4)(line_width 1))
+		(line (pt 52 12)(pt 78 12)(line_width 1))
+		(line (pt 52 12)(pt 52 4)(line_width 1))
+		(line (pt 78 4)(pt 82 8)(line_width 1))
+		(line (pt 82 8)(pt 78 12)(line_width 1))
+		(line (pt 78 12)(pt 82 8)(line_width 1))
+	)
+)
 (symbol
 	(rect 1080 624 1280 720)
 	(text "ram_block" (rect 5 0 65 12)(font "Arial" (font_size 8)))
@@ -258,9 +290,9 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 608 400 768 656)
+	(rect 608 400 768 688)
 	(text "cpu" (rect 5 0 26 12)(font "Arial" (font_size 8)))
-	(text "inst1" (rect 8 242 31 252)(font "Arial" ))
+	(text "inst1" (rect 8 274 31 284)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -346,6 +378,20 @@ applicable agreement for further details.
 		(line (pt 160 208)(pt 144 208)(line_width 3))
 	)
 	(port
+		(pt 160 224)
+		(output)
+		(text "empty" (rect 0 0 35 12)(font "Arial" (font_size 8)))
+		(text "empty" (rect 104 219 139 231)(font "Arial" (font_size 8)))
+		(line (pt 160 224)(pt 144 224)(line_width 1))
+	)
+	(port
+		(pt 160 240)
+		(output)
+		(text "full" (rect 0 0 15 12)(font "Arial" (font_size 8)))
+		(text "full" (rect 124 235 139 247)(font "Arial" (font_size 8)))
+		(line (pt 160 240)(pt 144 240)(line_width 1))
+	)
+	(port
 		(pt 160 96)
 		(bidir)
 		(text "data[15..0]" (rect 0 0 60 12)(font "Arial" (font_size 8)))
@@ -353,7 +399,7 @@ applicable agreement for further details.
 		(line (pt 160 96)(pt 144 96)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 144 240)(line_width 1))
+		(rectangle (rect 16 16 144 272)(line_width 1))
 	)
 )
 (connector
@@ -527,6 +573,26 @@ applicable agreement for further details.
 	(pt 776 608)
 	(pt 776 840)
 	(bus)
+)
+(connector
+	(pt 768 624)
+	(pt 816 624)
+)
+(connector
+	(pt 768 640)
+	(pt 792 640)
+)
+(connector
+	(pt 816 624)
+	(pt 816 880)
+)
+(connector
+	(pt 792 896)
+	(pt 816 896)
+)
+(connector
+	(pt 792 640)
+	(pt 792 896)
 )
 (junction (pt 824 496))
 (junction (pt 912 512))

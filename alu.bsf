@@ -135,6 +135,13 @@ applicable agreement for further details.
 		(text "stack_out[15..0]" (rect 87 75 179 87)(font "Arial" (font_size 8)))
 		(line (pt 200 80)(pt 184 80)(line_width 3))
 	)
+	(port
+		(pt 200 96)
+		(output)
+		(text "full" (rect 0 0 15 12)(font "Arial" (font_size 8)))
+		(text "full" (rect 164 91 179 103)(font "Arial" (font_size 8)))
+		(line (pt 200 96)(pt 184 96)(line_width 1))
+	)
 	(drawing
 		(rectangle (rect 16 16 184 240)(line_width 1))
 	)

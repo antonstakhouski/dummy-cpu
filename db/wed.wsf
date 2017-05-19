@@ -5230,10 +5230,10 @@ VECTOR("Z:/home/archer/labs/laba4/cpu.vwf")
 VECTOR("Z:/home/archer/labs/laba4/db/laba4.sim.cvwf")
 {
 	ZOOM{
-		ZBEGIN = 398988;
-		ZEND = 523986;
-		NUMERATOR = 1162;
-		DENOMINATOR = 124998;
+		ZBEGIN = 86482;
+		ZEND = 494337;
+		NUMERATOR = 1410;
+		DENOMINATOR = 341494;
 		TOP_INDEX = 0;
 	}
 	CLOCK{
@@ -6343,6 +6343,22 @@ VECTOR("Z:/home/archer/labs/laba4/db/laba4.sim.cvwf")
 	LINE{
 		SIGNAL = "stack[0]";
 		INDEX = 137;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "empty";
+		INDEX = 138;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "full";
+		INDEX = 139;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;

@@ -226,6 +226,13 @@ applicable agreement for further details.
 		(text "oper2[15..0]" (rect 143 91 211 103)(font "Arial" (font_size 8)))
 		(line (pt 232 96)(pt 216 96)(line_width 3))
 	)
+	(port
+		(pt 232 112)
+		(output)
+		(text "op2_u[10..0]" (rect 0 0 70 12)(font "Arial" (font_size 8)))
+		(text "op2_u[10..0]" (rect 141 107 211 119)(font "Arial" (font_size 8)))
+		(line (pt 232 112)(pt 216 112)(line_width 3))
+	)
 	(drawing
 		(rectangle (rect 16 16 216 432)(line_width 1))
 	)
