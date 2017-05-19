@@ -3,17 +3,15 @@
 	<PROJECT NAME="laba4">
 		<CBX_INST_ENTRY INSTANCE_NAME="|pc|cpu:inst1|alu:inst101|lpm_add_sub3:inst16|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_fkh.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|pc|cpu:inst1|alu:inst101|stack:inst18|lpm_counter3:inst11|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_5dg.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|pc|cpu:inst1|alu:inst101|myshift:inst7|lpm_clshift:lpm_clshift_component" CBX_FILE_NAME="lpm_clshift_khc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|pc|cpu:inst1|alu:inst101|stack:inst18|lpm_compare0:inst18|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_mni.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|pc|cpu:inst1|if:inst|BUSMUX:inst6|lpm_mux:$00000" CBX_FILE_NAME="mux_8pc.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|pc|cpu:inst1|op_f:inst98|BUSMUX:inst48|lpm_mux:$00000" CBX_FILE_NAME="mux_8pc.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|pc|cpu:inst1|register_block:inst27|mux10:inst46|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_vqc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|pc|cpu:inst1|w_res:inst1|BUSMUX:inst4|lpm_mux:$00000" CBX_FILE_NAME="mux_8pc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|pc|cpu:inst1|alu:inst101|stack:inst18|lpm_decode4:inst16|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_e9f.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|pc|cpu:inst1|cu:inst96|lpm_decode2:inst10|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_e9f.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|pc|cpu:inst1|if:inst|lpm_add_sub2:inst3|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_cqh.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|pc|cpu:inst1|if:inst|lpm_decode3:inst13|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_e9f.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|pc|cpu:inst1|op_f:inst98|BUSMUX:inst41|lpm_mux:$00000" CBX_FILE_NAME="mux_dpc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|pc|cpu:inst1|w_res:inst1|BUSMUX:inst5|lpm_mux:$00000" CBX_FILE_NAME="mux_dpc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|pc|ram_block:inst3|lpm_rom2:inst2|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_8b51.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|pc|cpu:inst1|alu:inst101|BUSMUX:inst12|lpm_mux:$00000" CBX_FILE_NAME="mux_dpc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|pc|cpu:inst1|alu:inst101|stack:inst18|lpm_compare1:inst20|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_i8j.tdf"/>
@@ -21,5 +19,8 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|pc|cpu:inst1|register_block:inst27|lpm_decode0:inst21|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_e9f.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|pc|ram_block:inst3|LPM_RAM_IO:inst|altram:sram|altsyncram:ram_block" CBX_FILE_NAME="altsyncram_ce91.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|pc|cpu:inst1|cu:inst96|lpm_counter2:inst16|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_e4i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|pc|cpu:inst1|alu:inst101|myshift:inst7|lpm_clshift:lpm_clshift_component" CBX_FILE_NAME="lpm_clshift_khc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|pc|cpu:inst1|op_f:inst98|BUSMUX:inst48|lpm_mux:$00000" CBX_FILE_NAME="mux_8pc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|pc|cpu:inst1|register_block:inst27|mux10:inst46|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_vqc.tdf"/>
 	</PROJECT>
 </LOG_ROOT>

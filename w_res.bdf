@@ -309,6 +309,22 @@ applicable agreement for further details.
 	(text "VCC" (rect 136 7 156 16)(font "Arial" (font_size 6)))
 )
 (pin
+	(input)
+	(rect 232 608 400 624)
+	(text "INPUT" (rect 133 0 161 9)(font "Arial" (font_size 6)))
+	(text "op1[15..0]" (rect 5 0 54 10)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 92 12)(pt 117 12)(line_width 1))
+		(line (pt 92 4)(pt 117 4)(line_width 1))
+		(line (pt 121 8)(pt 168 8)(line_width 1))
+		(line (pt 92 12)(pt 92 4)(line_width 1))
+		(line (pt 117 4)(pt 121 8)(line_width 1))
+		(line (pt 117 12)(pt 121 8)(line_width 1))
+	)
+	(text "VCC" (rect 136 7 156 16)(font "Arial" (font_size 6)))
+)
+(pin
 	(output)
 	(rect 752 168 928 184)
 	(text "OUTPUT" (rect 1 0 39 9)(font "Arial" (font_size 6)))
@@ -944,6 +960,54 @@ applicable agreement for further details.
 	)
 	(annotation_block (parameter)(rect 416 -192 512 -168))
 )
+(symbol
+	(rect 280 16 392 104)
+	(text "BUSMUX" (rect 28 0 94 15)(font "Arial" (font_size 10)))
+	(text "inst5" (rect 3 77 26 87)(font "Arial" ))
+	(port
+		(pt 0 64)
+		(input)
+		(text "datab[WIDTH-1..0]" (rect 6 51 113 63)(font "Arial" (font_size 8)))
+		(text "datab[]" (rect 6 51 44 63)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 44 64)(line_width 3))
+	)
+	(port
+		(pt 56 88)
+		(input)
+		(text "sel" (rect 59 70 75 82)(font "Arial" (font_size 8)))
+		(text "sel" (rect 59 70 75 82)(font "Arial" (font_size 8)))
+		(line (pt 56 88)(pt 56 72)(line_width 1))
+	)
+	(port
+		(pt 0 32)
+		(input)
+		(text "dataa[WIDTH-1..0]" (rect 6 19 113 31)(font "Arial" (font_size 8)))
+		(text "dataa[]" (rect 6 19 44 31)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 44 32)(line_width 3))
+	)
+	(port
+		(pt 112 48)
+		(output)
+		(text "result[WIDTH-1..0]" (rect 75 35 182 47)(font "Arial" (font_size 8)))
+		(text "result[]" (rect 75 35 113 47)(font "Arial" (font_size 8)))
+		(line (pt 68 48)(pt 112 48)(line_width 3))
+	)
+	(parameter
+		"WIDTH"
+		"16"
+		"Width of I/O, any integer > 0"
+		" 1" " 2" " 3" " 4" " 5" " 6" " 7" " 8" " 9" "10" "11" "12" "13" "14" "15" "16" "20" "24" "28" "32" "40" "48" "56" "64" 
+	)
+	(drawing
+		(text "0" (rect 52 31 56 40)(font "Arial" (font_size 6)))
+		(text "1" (rect 52 55 56 64)(font "Arial" (font_size 6)))
+		(line (pt 68 64)(pt 68 32)(line_width 1))
+		(line (pt 44 80)(pt 44 16)(line_width 1))
+		(line (pt 44 16)(pt 68 32)(line_width 1))
+		(line (pt 44 80)(pt 68 64)(line_width 1))
+	)
+	(annotation_block (parameter)(rect 392 -8 488 16))
+)
 (connector
 	(pt 400 272)
 	(pt 424 272)
@@ -1130,26 +1194,6 @@ applicable agreement for further details.
 	(pt 456 104)
 )
 (connector
-	(pt 440 64)
-	(pt 536 64)
-	(bus)
-)
-(connector
-	(pt 400 176)
-	(pt 440 176)
-	(bus)
-)
-(connector
-	(pt 440 176)
-	(pt 608 176)
-	(bus)
-)
-(connector
-	(pt 440 64)
-	(pt 440 176)
-	(bus)
-)
-(connector
 	(pt 760 392)
 	(pt 752 392)
 )
@@ -1235,10 +1279,61 @@ applicable agreement for further details.
 	(pt 192 -104)
 	(bus)
 )
+(connector
+	(text "<<__$DEF_ALIAS7177>>" (rect 474 56 597 66)(font "Arial" )(invisible))
+	(pt 392 64)
+	(pt 536 64)
+	(bus)
+)
+(connector
+	(pt 408 176)
+	(pt 408 136)
+	(bus)
+)
+(connector
+	(pt 400 176)
+	(pt 408 176)
+	(bus)
+)
+(connector
+	(pt 408 176)
+	(pt 608 176)
+	(bus)
+)
+(connector
+	(pt 408 136)
+	(pt 232 136)
+	(bus)
+)
+(connector
+	(pt 280 80)
+	(pt 232 80)
+	(bus)
+)
+(connector
+	(pt 232 80)
+	(pt 232 136)
+	(bus)
+)
+(connector
+	(pt 336 104)
+	(pt 336 120)
+)
+(connector
+	(text "dec_u" (rect 346 112 375 122)(font "Arial" ))
+	(pt 336 120)
+	(pt 384 120)
+)
+(connector
+	(text "op1[15..0]" (rect 242 40 291 50)(font "Arial" ))
+	(pt 280 48)
+	(pt 232 48)
+	(bus)
+)
 (junction (pt 680 288))
 (junction (pt 648 320))
 (junction (pt 680 320))
 (junction (pt 680 336))
 (junction (pt 600 344))
-(junction (pt 440 176))
 (junction (pt 512 504))
+(junction (pt 408 176))

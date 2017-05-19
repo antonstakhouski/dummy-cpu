@@ -150,6 +150,13 @@ applicable agreement for further details.
 		(line (pt 0 304)(pt 16 304)(line_width 3))
 	)
 	(port
+		(pt 0 320)
+		(input)
+		(text "op1[15..0]" (rect 0 0 56 12)(font "Arial" (font_size 8)))
+		(text "op1[15..0]" (rect 21 315 77 327)(font "Arial" (font_size 8)))
+		(line (pt 0 320)(pt 16 320)(line_width 3))
+	)
+	(port
 		(pt 240 32)
 		(output)
 		(text "mem_addr[10..0]" (rect 0 0 96 12)(font "Arial" (font_size 8)))

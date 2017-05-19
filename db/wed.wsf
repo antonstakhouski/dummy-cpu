@@ -5230,10 +5230,10 @@ VECTOR("Z:/home/archer/labs/laba4/cpu.vwf")
 VECTOR("Z:/home/archer/labs/laba4/db/laba4.sim.cvwf")
 {
 	ZOOM{
-		ZBEGIN = 86482;
-		ZEND = 494337;
-		NUMERATOR = 1410;
-		DENOMINATOR = 341494;
+		ZBEGIN = 500000;
+		ZEND = 1000000;
+		NUMERATOR = 1473;
+		DENOMINATOR = 500000;
 		TOP_INDEX = 0;
 	}
 	CLOCK{
